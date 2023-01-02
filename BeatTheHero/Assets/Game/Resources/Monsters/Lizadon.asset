@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bb6e1168fea53f4cbab0b11f026ac73, type: 3}
+  m_Name: Lizadon
+  m_EditorClassIdentifier: 
+  name: "\u30EA\u30B6\u30FC\u30C9\u30F3"
+  description: "\u30C9\u30E9\u30B4\u30F3\u3067\u306F\u306A\u3044"
+  frontSprite: {fileID: 21300000, guid: 291e4019f840ca64b9762a7af969f0d7, type: 3}
+  BackSprite: {fileID: 21300000, guid: e23189e4beb9fd3438f7afbb5593192d, type: 3}
+  TransformSprite: {fileID: 0}
+  type1: 1
+  type2: 0
+  HP: 0
+  attack: 84
+  defense: 78
+  speed: 100
+  intelligence: 0
+  learnablMoves:
+  - Base: {fileID: 11400000, guid: ba2b98b30eed46045ba32e95f72e3919, type: 2}
+    level: 5
+  - Base: {fileID: 11400000, guid: 62d44c46ad3c6bc4a96d8abab47523c8, type: 2}
+    level: 30
